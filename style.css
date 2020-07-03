@@ -1,8 +1,16 @@
-body {
-    background-image: url("img/more-pesok-plyazh-lodka.jpg");
+
+body{
+    background-image: url("img/zastavka.jpg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-size: 100%;
+    font-size: 24px;
 }
 p{
-color:rgba(255, 166, 0, 0.973)    
+color:rgb(150, 131, 12)    
+}
+h2{
+  color: blue;
 }
 p.c{
     font-size: 24px;
@@ -10,14 +18,15 @@ p.c{
 }
 .page-title {
     font-size: 30px;
-    color:greenyellow;
+    color:green;
     text-align:center
 }
 a {
     text-decoration: underline; /*водне поло*/
 }
 h1 {
-    color:tomato
+    color:tomato;
+    filter: drop-shadow(16px 16px 20px rgb(10, 62, 110)); 
 }
 a{
 color: #000000;
